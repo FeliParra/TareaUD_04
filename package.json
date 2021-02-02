@@ -1,0 +1,28 @@
+{
+  "name": "tareaud4",
+  "version": "1.0.0",
+  "description": "Proyecto Gulp",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeliParra/TareaUD_04.git"
+  },
+  "keywords": [
+    "tareaud4",
+    "gulp",
+    "netlify"
+  ],
+  "author": "Felipe Parra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FeliParra/TareaUD_04/issues"
+  },
+  "homepage": "https://github.com/FeliParra/TareaUD_04#readme"
+}
