@@ -1,0 +1,36 @@
+//// @author Felipe Parra Canto 
+
+/// Estilos de la cabecera
+/// @group Header
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 1em;
+    /// Imagen principal de la página
+    /// @group Imagen
+    &__img{
+        width: 3em;
+    }
+    /// Titulo inicial de la página
+    /// @group Titulo
+    &__titulo{
+        &--size{
+            font-size: 24px;
+        }
+    }
+    /// Hiperenlace para cambio de idioma
+    /// @group Enlace
+    &__idiomas{
+        &--size{
+            font-size: 12px;
+        }
+        &--color{
+            color: black;
+        }
+        &--active{
+            text-decoration: underline;
+        }
+    }
+}

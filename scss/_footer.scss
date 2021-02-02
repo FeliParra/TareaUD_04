@@ -1,0 +1,77 @@
+/// Estilos del Pie de página
+/// @group Footer
+.footer{
+    width: 100%;
+    position: absolute;
+    display: block;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    /// Imagen del footer
+    /// @group Imagen
+    &__img{
+        margin: 2em 0 0.5em 0;
+        width: 3em;
+        filter: invert(1);
+    }
+    /// Titulo del pie de página
+    /// @group Titulo
+    &__titulo{
+        margin: 0.5em 0 1em 0;
+        color: white;
+        font-size: 24px;
+    }
+    /// Informácion de contacto
+    /// @group Texto
+    &__info{
+        margin: 0.25em 0;
+        color: white;
+    }
+    /// Creditos de la página y cierre de la misma
+    /// @group Texto
+    &__fin{
+        margin: 2em 0 3em 0;
+        font-size: 10px;
+        color: white;
+    }
+}
+/// Estilos de los iconos de las redes sociales
+/// @group Iconos
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    &__sociales{
+        /// Cambios de color de las redes sociales
+        /// @group Iconos
+        &--logo{
+            margin: 1em 1em;
+            background-color: white;
+            filter: invert(0);
+            border-radius: 50%;
+            transition: .5s background-color, .5s filter;
+            &:hover{
+                filter: invert(1);
+            }
+        }
+    }
+}
+/// Enlaces de contacto sobre la página
+/// @group Enlace
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    &__link{
+        margin: 0 1em;
+        &--color{
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width:780px){
+    .header {
+        align-items: center;
+        flex-direction: column-reverse;
+        &__img{
+            width: 5em;
+        }
+        &__titulo{
+            &--margin{
+                margin: 1em 0 0.5em 0;
+            }
+        }
+    }
+
+    .article {
+        margin: 0 1em;
+        &__video{
+            height: 240px;
+        }
+    }
+    
+    .author{
+        &__description{
+            &--size{
+                width: 100%;
+            }
+        }
+    }
+
+    .contacto{
+        display: block;
+    }
+}

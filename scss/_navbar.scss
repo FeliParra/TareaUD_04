@@ -1,0 +1,32 @@
+/// Estilos de la barra de navegación
+/// @group Nav-Bar
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1em;
+    /// Barra de navegación mediante listas
+    /// @group Lista
+    &__item{
+        /// Enlace de la barra de navegación
+        /// @group Enlace
+        &--link{
+            padding: 0 2em;
+            color:black;
+            font-size: 1.5em;
+            font-weight: 600;
+            transition: .5s background-color, .5s color;
+            /// Enlace cuando el ratón se pasa por encima
+            /// @group Activo
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+        }
+        /// Opción seleccionada
+        /// @group Selected
+        &--active{
+            text-decoration: underline;
+        }
+    }
+}
