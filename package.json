@@ -8,8 +8,12 @@
   },
   "devDependencies": {},
   "scripts": {
+    "scss": "sass scss/estilos.scss dist/css/estilos.css",
+    "build:css": "npm run scss",
+    "build": "npm run build:css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FeliParra/TareaUD_04.git"
